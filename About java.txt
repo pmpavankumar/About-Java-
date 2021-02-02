@@ -1,0 +1,95 @@
+About Java:
+Summary:
+Java is a multi-platform, object-oriented, and network-centric programming language Java is a general-purpose, class-based, object-oriented programming language.
+Java Platform is a collection of programs that help programmers to develop and run Java applications efficiently.
+Meaning of Java: Java is a multi-platform and network-centric programming language.
+It is mainly used for developing Android Apps and Enterprise Software.
+2009, Oracle Corporation acquired Sun Microsystems and took ownership of three key Sun software assets: Java, Solaris, and MySQL.
+The latest version of Java released on September 15th, 2020
+The best feature of the Java is that it is one of the easiest programming languages to learn.
+Four types of Java Programming language platforms are: 1) Java Platform, Standard Edition (Java SE) 2) Java Platform, Enterprise Edition (Java EE) 3) Java Platform, Micro Edition (Java ME) 4) JavaFX
+A computer is an electronic device capable of performing computations.
+The computer only understands electronic signals or binary signals.
+Assembler is an advanced technology that converts source core to corresponding machine code (110001..) and feeds to your processor.
+Java is a multi-platform, object-oriented, and network-centric language. It is among the most used programming language. Java is also used as a computing platform.
+It is considered as one of the fast, secure, and reliable programming languages preferred by most organizations to build their projects.
+What is Java?
+Java is a general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies. It is a computing platform for application development. Java is fast, secure, and reliable, therefore. It is widely used for developing Java applications in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc.
+What is Java Platform?
+Java Platform is a collection of programs that help programmers to develop and run Java programming applications efficiently. It includes an execution engine, a compiler, and a set of libraries in it. It is a set of computer software and specifications. James Gosling developed the Java platform at Sun Microsystems, and the Oracle Corporation later acquired it.
+
+Components Of Java Programming Language:
+A Java Programmer writes a program in a human-readable language called Source Code. Therefore, the CPU or Chips never understand the source code written in any programming language.
+These computers or chips understand only one thing, which is called machine language or code. These machine codes run at the CPU level. Therefore, it would be different machine codes for other models of CPU.
+However, you need to worry about the machine code, as programming is all about the source code. The machine understands this source code and translates them into machine understandable code, which is an executable code.
+All these functionalities happen inside the following 3 Java platform components:
+Java Development kit (JDK)
+JDK is a software development environment used for making applets and Java applications. The full form of JDK is Java Development Kit. Java developers can use it on Windows, macOS, Solaris, and Linux. JDK helps them to code and run Java programs. It is possible to install more than one JDK version on the same computer.
+Why use JDK?
+Here are the main reasons for using JDK:
+JDK contains tools required to write Java programs and JRE to execute them.
+It includes a compiler, Java application launcher, Appletviewer, etc.
+Compiler converts code written in Java into byte code.
+Java application launcher opens a JRE, loads the necessary class, and executes its main method.
+Java Virtual Machine (JVM):
+Java Virtual Machine (JVM) is an engine that provides a runtime environment to drive the Java Code or applications. It converts Java bytecode into machine language. JVM is a part of the Java Run Environment (JRE). In other programming languages, the compiler produces machine code for a particular system. However, the Java compiler produces code for a Virtual Machine known as Java Virtual Machine.
+Why JVM?
+Here are the important reasons of using JVM:
+JVM provides a platform-independent way of executing Java source code.
+It has numerous libraries, tools, and frameworks.
+Once you run a Java program, you can run on any platform and save lots of time.
+JVM comes with JIT (Just-in-Time) compiler that converts Java source code into low-level machine language. Hence, it runs faster than a regular application.
+Java Runtime Environment (JRE)
+JRE is a piece of software that is designed to run other software. It contains the class libraries, loader class, and JVM. In simple terms, if you want to run a Java program, you need JRE. If you are not a programmer, you don't need to install JDK, but just JRE to run Java programs.
+Why use JRE?
+Here are the main reasons of using JRE:
+JRE contains class libraries, JVM, and other supporting files. It does not include any tool for Java development like a debugger, compiler, etc.
+It uses important package classes like math, swing, util, lang, awt, and runtime libraries.
+If you have to run Java applets, then JRE must be installed in your system.
+Different Types of Java Platforms:
+There are four different types of Java programing language platforms:
+1. Java Platform, Standard Edition (Java SE): Java SE's API offers the Java programming language's core functionality. It defines all the basis of type and object to high-level classes. It is used for networking, security, database access, graphical user interface (GUI) development, and XML parsing.
+2. Java Platform, Enterprise Edition (Java EE): The Java EE platform offers an API and runtime environment for developing and running highly scalable, large-scale, multi-tiered, reliable, and secure network applications.
+
+3. Java Programming Language Platform, Micro Edition (Java ME): The Java ME platform offers an API and a small-footprint virtual machine running Java programming language applications on small devices, like mobile phones.
+
+4. Java FX: JavaFX is a platform for developing rich internet applications using a lightweight user-interface API. It user hardware-accelerated graphics and media engines that help Java take advantage of higher-performance clients and a modern look-and-feel and high-level APIs for connecting to networked data sources.
+
+To understand Java programming language, we need to understand some basic concept of how a computer program can run a command and execute the action.
+What is a PC?
+A computer is an electronic device capable of performing computations. We all know that it is composed of a monitor, keyboard, mouse, and memory to store information. But the most important component of the computer is a PROCESSOR. This does all thinking of computer, but the question is how the computer does this thinking? How does it understand the text, images, videos, etc.?
+What is Assembly Language?
+The computer is an electronic device, and it can only understand electronic signals or binary signals. For example, the 5-volt electronic signal may represent binary number 1, while 0 volts may represent binary number 0. So your PC is continuously bombarded with these signals.
+For example, the # symbol is identified by the computer as 10101010. Similarly, the pattern for adding a function is represented by 10000011.
+This is known as 8-bit computing. Current day processor is capable of decoding 64-bit time. But what is the relation of this concept with the programming language JAVA? Let understand these as an example.
+Suppose if you want to tell the computer to add two numbers (1+2) represented by some binary numbers (10000011), how are you going to tell this to your computer? Yes, we are going to use assembly language to get our code executed.
+What are Assembler and Compiler?
+With the advancement in technology, i/o devices were invented. You could directly type your program into the PC using ASSEMBLER. It converts it into the corresponding machine code (110001..) and feeds it to your processor. Coming back to our example addition of (1+2), the assembler will convert this code into machine code and output.
+How Java Virtual Machine works?
+By using Java Virtual Machine, this problem can be solved. But how it works on different processors and O.S. Let's understand this process step by step.
+Step 1) The code to display the addition of two numbers is System.out.println(1+2), and saved as a .java file.
+Step 2) Using the java compiler the code is converted into an intermediate code called the bytecode. The output is a .class file.
+Step 3) This code is not understood by any platform, but only a virtual platform called the Java Virtual Machine.
+Step 4) This Virtual Machine resides in the RAM of your operating system. When the Virtual Machine is fed with this bytecode, it identifies the platform it is working on and converts the bytecode into the native machine code.
+How is Java Platform Independent?
+Like the C compiler, the Java compiler does not produce native executable code for a particular machine. Instead, Java produces a unique format called bytecode. It executes according to the rules laid out in the virtual machine specification. Therefore, Java is a platform-independent language.
+Bytecode is understandable to any JVM installed on any OS. In short, the java source code can run on all operating systems.
+What are the features Java?
+Here are some important Java features:
+It is one of the easy-to-use programming languages to learn.
+Write code once and run it on almost any computing platform.
+Java is platform-independent. Some programs developed in one machine can be executed in another machine.
+It is designed for building object-oriented applications.
+It is a multithreaded language with automatic memory management.
+It is created for the distributed environment of the Internet.
+Facilitates distributed computing as its network-centric.
+
+What is Java used for?
+Here are some important Java applications:
+It is used for developing Android Apps
+Helps you to create Enterprise Software
+Wide range of Mobile java Applications
+Scientific Computing Applications
+Use for Big Data Analytics
+Java Programming of Hardware devices
+Used for Server-Side Technologies like Apache, JBoss, GlassFish, etc.
